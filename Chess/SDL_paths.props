@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <SDL_LIBS_64>C:\Users\Edvardas\Desktop\Programming\SDL2-2.0.8\lib\x64</SDL_LIBS_64>
+    <SDL_LIBS_32>C:\Users\Edvardas\Desktop\Programming\SDL2-2.0.8\lib\x86</SDL_LIBS_32>
+    <SDL_HEADERS>C:\Users\Edvardas\Desktop\Programming\SDL2-2.0.8\include</SDL_HEADERS>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <BuildMacro Include="SDL_LIBS_64">
+      <Value>$(SDL_LIBS_64)</Value>
+    </BuildMacro>
+    <BuildMacro Include="SDL_LIBS_32">
+      <Value>$(SDL_LIBS_32)</Value>
+    </BuildMacro>
+    <BuildMacro Include="SDL_HEADERS">
+      <Value>$(SDL_HEADERS)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>
