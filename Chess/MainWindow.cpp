@@ -1,5 +1,6 @@
 #include "MainWindow.h"
 #include "EventSystem.h"
+#include <stdexcept>
 
 MainWindow* MainWindow::instance = nullptr;
 SDL_Renderer* MainWindow::renderer = nullptr;

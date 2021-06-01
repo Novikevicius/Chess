@@ -1,0 +1,38 @@
+﻿  Board.cpp
+C:\Repos\Chess\Chess\Colors.h(34,1): warning C4005: 'COLOR_SEAGREEN': macro redefinition
+C:\Repos\Chess\Chess\Colors.h(27): message : see previous definition of 'COLOR_SEAGREEN'
+C:\Repos\Chess\Chess\Board.cpp(218,34): warning C4806: '==': unsafe operation: no value of type 'bool' promoted to type 'char' can equal the given constant
+C:\Repos\Chess\Chess\Board.cpp(263,40): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Repos\Chess\Chess\Board.cpp(263,40): warning C4267: 'initializing': conversion from 'size_t' to 'const int', possible loss of data
+C:\Repos\Chess\Chess\Board.cpp(382,41): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Repos\Chess\Chess\Board.cpp(391,83): warning C4267: 'argument': conversion from 'size_t' to 'T', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+  Game.cpp
+  main.cpp
+  Sprite.cpp
+C:\Repos\Chess\Chess\Sprite.cpp(136,86): warning C4838: conversion from 'T' to 'int' requires a narrowing conversion
+          with
+          [
+              T=float
+          ]
+C:\Repos\Chess\Chess\Sprite.cpp(136,86): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Repos\Chess\Chess\Sprite.cpp(136,113): warning C4838: conversion from 'T' to 'int' requires a narrowing conversion
+          with
+          [
+              T=float
+          ]
+C:\Repos\Chess\Chess\Sprite.cpp(136,113): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Generating Code...
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+  Chess.vcxproj -> C:\Repos\Chess\x64\Debug\Chess.exe

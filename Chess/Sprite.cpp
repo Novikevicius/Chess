@@ -3,6 +3,7 @@
 #include <windows.h>
 #include "MainWindow.h"
 #include "Vector2.h"
+#include <stdexcept>
 
 Sprite::Sprite()
 {

@@ -2,9 +2,9 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros">
-    <SDL_LIBS_64>C:\Users\Edvardas\Desktop\Programming\SDL2-2.0.8\lib\x64</SDL_LIBS_64>
-    <SDL_LIBS_32>C:\Users\Edvardas\Desktop\Programming\SDL2-2.0.8\lib\x86</SDL_LIBS_32>
-    <SDL_HEADERS>C:\Users\Edvardas\Desktop\Programming\SDL2-2.0.8\include</SDL_HEADERS>
+    <SDL_LIBS_64>$(ProjectDir)SDL2-2.0.14\lib\x64</SDL_LIBS_64>
+    <SDL_LIBS_32>$(ProjectDir)SDL2-2.0.14\lib\x86</SDL_LIBS_32>
+    <SDL_HEADERS>$(ProjectDir)SDL2-2.0.14\include</SDL_HEADERS>
   </PropertyGroup>
   <PropertyGroup />
   <ItemDefinitionGroup />
